@@ -12,36 +12,6 @@ const Main = () => {
   const [gridColumnApi, setGridColumnApi] = useState(null);
 
   const [submitClicked, setSubmitClicked] = useState(false);
-  const [rowData, setRowData] = useState([
-    {
-      id: "1",
-      name: "Celica",
-      email: "abc@gmail.com",
-      gender: "Male",
-      dob: "12-01-2020",
-      country: "India",
-      city: "Nagpur",
-    },
-    {
-      id: "2",
-      name: "Mondeo",
-      email: "abc@gmail.com",
-      gender: "Male",
-      dob: "12-01-2020",
-      country: "India",
-      city: "Nagpur",
-    },
-    {
-      id: "3",
-      name: "Boxter",
-      email: "abc@gmail.com",
-      gender: "Male",
-      dob: "12-01-2020",
-      country: "India",
-      city: "Nagpur",
-    },
-  ]);
-
   const columnDefs = [
     {
       headerName: "Id",
